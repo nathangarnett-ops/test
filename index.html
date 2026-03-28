@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FliReel — Your Game. Your Coach. Your Edge.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="logo">
+        <span class="logo-fli">Fli</span><span class="logo-reel">Reel</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#coaches">Coaches</a></li>
+        <li><a href="#ai-tech">AI Tech</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="nav-cta-mobile"><a href="#pricing" class="btn btn-primary btn-sm">Get Started</a></li>
+      </ul>
+      <a href="#pricing" class="btn btn-primary btn-sm nav-cta-desktop">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <p class="hero-tagline fade-in">Your Game. Your Coach. Your Edge.</p>
+      <h1 class="hero-headline fade-in">Unlock Your <span class="text-accent">Full Potential</span></h1>
+      <p class="hero-description fade-in">
+        AI-powered sports coaching from elite instructors in Golf, Baseball, Tennis, Basketball, and Triathlon.
+      </p>
+      <div class="hero-buttons fade-in">
+        <a href="#pricing" class="btn btn-primary btn-lg">Get Started Free</a>
+        <a href="#coaches" class="btn btn-outline btn-lg">Explore Coaches</a>
+      </div>
+      <!-- Decorative sport icons floating in background -->
+      <div class="hero-floats" aria-hidden="true">
+        <span class="float-icon float-1">&#9971;</span>
+        <span class="float-icon float-2">&#9918;</span>
+        <span class="float-icon float-3">&#127934;</span>
+        <span class="float-icon float-4">&#127936;</span>
+        <span class="float-icon float-5">&#127946;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOW IT WORKS ========== -->
+  <section class="section how-it-works" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title fade-in">How It Works</h2>
+      <p class="section-subtitle fade-in">Three simple steps to elevate your game</p>
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <div class="step-card fade-in">
+          <div class="step-number">1</div>
+          <div class="step-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <rect x="8" y="6" width="32" height="36" rx="4" stroke="#00D4AA" stroke-width="2.5"/>
+              <polygon points="20,16 32,24 20,32" fill="#00D4AA"/>
+            </svg>
+          </div>
+          <h3>Watch</h3>
+          <p>Access expert coaching videos from elite instructors across five major sports. Learn technique, strategy, and form from the best.</p>
+        </div>
+        <!-- Step 2 -->
+        <div class="step-card fade-in">
+          <div class="step-number">2</div>
+          <div class="step-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <rect x="10" y="4" width="28" height="40" rx="4" stroke="#00D4AA" stroke-width="2.5"/>
+              <circle cx="24" cy="36" r="3" fill="#00D4AA"/>
+              <polyline points="18,18 24,14 30,18" stroke="#00D4AA" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Upload</h3>
+          <p>Record and upload your own practice videos. Our AI engine analyzes your movement frame by frame with skeletal tracking technology.</p>
+        </div>
+        <!-- Step 3 -->
+        <div class="step-card fade-in">
+          <div class="step-number">3</div>
+          <div class="step-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <polyline points="6,36 16,26 24,30 32,16 42,12" stroke="#00D4AA" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="42" cy="12" r="4" fill="#00D4AA"/>
+              <line x1="6" y1="42" x2="42" y2="42" stroke="#00D4AA" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Improve</h3>
+          <p>Get your personalized Fli Score, side-by-side pro comparisons, and actionable feedback to track your progress over time.</p>
+        </div>
+      </div>
+      <!-- Connector arrows between steps -->
+      <div class="step-connectors" aria-hidden="true">
+        <div class="connector"></div>
+        <div class="connector"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SPORT CATEGORIES ========== -->
+  <section class="section sports" id="sports">
+    <div class="container">
+      <h2 class="section-title fade-in">Choose Your Sport</h2>
+      <p class="section-subtitle fade-in">Expert coaching tailored to your game</p>
+      <div class="sports-grid">
+        <div class="sport-card fade-in" tabindex="0">
+          <div class="sport-icon">&#9971;</div>
+          <h3>Golf</h3>
+          <p>Perfect your swing with pro-level analysis. Get AI feedback on grip, stance, backswing, and follow-through — plus tempo breakdowns and club path tracking to shave strokes off your game.</p>
+          <span class="sport-stat">12 Coaches &bull; 240+ Videos</span>
+        </div>
+        <div class="sport-card fade-in" tabindex="0">
+          <div class="sport-icon">&#9918;</div>
+          <h3>Baseball</h3>
+          <p>Dial in your mechanics from pitch to bat. Analyze throwing velocity, arm slot, hip rotation, and batting stance with frame-by-frame AI breakdowns used by minor league training programs.</p>
+          <span class="sport-stat">9 Coaches &bull; 180+ Videos</span>
+        </div>
+        <div class="sport-card fade-in" tabindex="0">
+          <div class="sport-icon">&#127934;</div>
+          <h3>Tennis</h3>
+          <p>Master every stroke with frame-by-frame feedback. From serve toss placement to forehand follow-through, our AI tracks racket path, footwork patterns, and split-step timing.</p>
+          <span class="sport-stat">8 Coaches &bull; 200+ Videos</span>
+        </div>
+        <div class="sport-card fade-in" tabindex="0">
+          <div class="sport-icon">&#127936;</div>
+          <h3>Basketball</h3>
+          <p>Sharpen your shot form and court movement. AI analysis covers release angle, arc consistency, dribble mechanics, and defensive positioning — from free throws to three-pointers.</p>
+          <span class="sport-stat">7 Coaches &bull; 150+ Videos</span>
+        </div>
+        <div class="sport-card fade-in" tabindex="0">
+          <div class="sport-icon">&#127946;</div>
+          <h3>Triathlon</h3>
+          <p>Optimize swim, bike, and run technique across all three disciplines. Track stroke efficiency, pedal cadence, and running gait with AI-powered form correction for race-day readiness.</p>
+          <span class="sport-stat">6 Coaches &bull; 160+ Videos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING ========== -->
+  <section class="section pricing" id="pricing">
+    <div class="container">
+      <h2 class="section-title fade-in">Choose Your Plan</h2>
+      <p class="section-subtitle fade-in">From free access to elite coaching — find the tier that fits your goals</p>
+      <div class="pricing-grid">
+        <!-- Free -->
+        <div class="pricing-card fade-in">
+          <div class="pricing-header">
+            <h3>Free</h3>
+            <p class="pricing-subtitle">The Starting Line</p>
+            <div class="pricing-price">$0<span>/mo</span></div>
+          </div>
+          <ul class="pricing-features">
+            <li>Limited video library</li>
+            <li>1 AI form snapshot per month</li>
+            <li>Basic technique tags</li>
+            <li>Community access</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Get Started Free</a>
+        </div>
+        <!-- Pro (Most Popular) -->
+        <div class="pricing-card pricing-popular fade-in">
+          <div class="popular-badge">Most Popular</div>
+          <div class="pricing-header">
+            <h3>FliReel Pro</h3>
+            <p class="pricing-subtitle">Your Competitive Edge</p>
+            <div class="pricing-price">$14.99<span>/mo</span></div>
+          </div>
+          <ul class="pricing-features">
+            <li>Full video library access</li>
+            <li>Unlimited AI motion analysis</li>
+            <li>Fli Score tracking</li>
+            <li>Side-by-side pro comparison</li>
+            <li>Progress dashboards</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Start Pro Trial</a>
+        </div>
+        <!-- Coach Connect -->
+        <div class="pricing-card fade-in">
+          <div class="pricing-header">
+            <h3>Coach Connect</h3>
+            <p class="pricing-subtitle">1-on-1 Expertise</p>
+            <div class="pricing-price">$49–$199<span>/session</span></div>
+          </div>
+          <ul class="pricing-features">
+            <li>1-on-1 personalized video coaching</li>
+            <li>AI pre-processed intake reports</li>
+            <li>Custom practice plans</li>
+            <li>Direct coach messaging</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Find a Coach</a>
+        </div>
+        <!-- Elite -->
+        <div class="pricing-card fade-in">
+          <div class="pricing-header">
+            <h3>FliReel Elite</h3>
+            <p class="pricing-subtitle">Total Transformation</p>
+            <div class="pricing-price">$299–$499<span>/mo</span></div>
+          </div>
+          <ul class="pricing-features">
+            <li>Dedicated personal coach</li>
+            <li>4 sessions per month</li>
+            <li>Full AI Intelligence Dashboard</li>
+            <li>Longitudinal progress tracking</li>
+            <li>Pro athlete benchmarking</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Go Elite</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED COACHES ========== -->
+  <section class="section coaches" id="coaches">
+    <div class="container">
+      <h2 class="section-title fade-in">Featured Coaches</h2>
+      <p class="section-subtitle fade-in">Learn from the best in the game</p>
+    </div>
+    <div class="coaches-scroll fade-in">
+      <div class="coaches-track">
+        <div class="coach-card">
+          <div class="coach-avatar" style="--hue: 160;">MC</div>
+          <h4>Mike Chen</h4>
+          <p class="coach-sport">Golf</p>
+          <div class="coach-rating">&#9733;&#9733;&#9733;&#9733;&#9733; <span>4.9</span></div>
+          <p class="coach-tagline">PGA-certified swing specialist</p>
+          <p class="coach-bio">15 years coaching experience. Former D1 golfer at Stanford. Specializes in driver mechanics and course strategy for mid-handicap players looking to break 80.</p>
+          <p class="coach-sessions">1,240 sessions completed</p>
+        </div>
+        <div class="coach-card">
+          <div class="coach-avatar" style="--hue: 200;">SR</div>
+          <h4>Sarah Rodriguez</h4>
+          <p class="coach-sport">Tennis</p>
+          <div class="coach-rating">&#9733;&#9733;&#9733;&#9733;&#9733; <span>4.8</span></div>
+          <p class="coach-tagline">Former WTA pro, footwork guru</p>
+          <p class="coach-bio">Ranked as high as #87 on the WTA tour. Now coaches competitive juniors and adult players on serve mechanics, return positioning, and match-day mental game.</p>
+          <p class="coach-sessions">980 sessions completed</p>
+        </div>
+        <div class="coach-card">
+          <div class="coach-avatar" style="--hue: 30;">DJ</div>
+          <h4>Derek Johnson</h4>
+          <p class="coach-sport">Baseball</p>
+          <div class="coach-rating">&#9733;&#9733;&#9733;&#9733;&#9734; <span>4.7</span></div>
+          <p class="coach-tagline">MLB pitching mechanics coach</p>
+          <p class="coach-bio">Former pitching coordinator for a AAA affiliate. Expert in arm health, velocity development, and pitch sequencing. Works with high school through professional pitchers.</p>
+          <p class="coach-sessions">870 sessions completed</p>
+        </div>
+        <div class="coach-card">
+          <div class="coach-avatar" style="--hue: 280;">AP</div>
+          <h4>Aisha Patel</h4>
+          <p class="coach-sport">Basketball</p>
+          <div class="coach-rating">&#9733;&#9733;&#9733;&#9733;&#9733; <span>4.9</span></div>
+          <p class="coach-tagline">Shooting form & court IQ expert</p>
+          <p class="coach-bio">Division I women's basketball assistant coach turned private skills trainer. Focuses on shooting mechanics, ball handling, and off-ball movement for guards and wings.</p>
+          <p class="coach-sessions">1,100 sessions completed</p>
+        </div>
+        <div class="coach-card">
+          <div class="coach-avatar" style="--hue: 340;">TW</div>
+          <h4>Tom Wallace</h4>
+          <p class="coach-sport">Triathlon</p>
+          <div class="coach-rating">&#9733;&#9733;&#9733;&#9733;&#9733; <span>4.8</span></div>
+          <p class="coach-tagline">Ironman finisher, technique optimizer</p>
+          <p class="coach-bio">7x Ironman finisher and USAT Level II certified coach. Specializes in swim stroke efficiency, bike fit optimization, and run gait analysis for age-group triathletes.</p>
+          <p class="coach-sessions">760 sessions completed</p>
+        </div>
+        <div class="coach-card">
+          <div class="coach-avatar" style="--hue: 120;">LK</div>
+          <h4>Lisa Kim</h4>
+          <p class="coach-sport">Golf</p>
+          <div class="coach-rating">&#9733;&#9733;&#9733;&#9733;&#9734; <span>4.6</span></div>
+          <p class="coach-tagline">Short game and putting specialist</p>
+          <p class="coach-bio">LPGA teaching professional with a laser focus on scoring shots inside 100 yards. Known for transforming putting strokes and greenside feel through data-driven drills.</p>
+          <p class="coach-sessions">640 sessions completed</p>
+        </div>
+        <div class="coach-card">
+          <div class="coach-avatar" style="--hue: 60;">JM</div>
+          <h4>James Mitchell</h4>
+          <p class="coach-sport">Baseball</p>
+          <div class="coach-rating">&#9733;&#9733;&#9733;&#9733;&#9733; <span>4.9</span></div>
+          <p class="coach-tagline">Hitting mechanics & bat speed coach</p>
+          <p class="coach-bio">Former college hitting coach who has trained 20+ MLB draft picks. Uses high-speed video and AI swing analysis to optimize launch angle, bat path, and timing.</p>
+          <p class="coach-sessions">1,050 sessions completed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AI TECHNOLOGY ========== -->
+  <section class="section ai-tech" id="ai-tech">
+    <div class="container">
+      <h2 class="section-title fade-in">Powered by the FliReel Motion Engine</h2>
+      <p class="section-subtitle fade-in">Cutting-edge AI that sees what the naked eye can't</p>
+      <div class="ai-content">
+        <div class="ai-features fade-in">
+          <div class="ai-feature">
+            <div class="ai-feature-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <circle cx="16" cy="6" r="4" stroke="#00D4AA" stroke-width="2"/>
+                <line x1="16" y1="10" x2="16" y2="22" stroke="#00D4AA" stroke-width="2"/>
+                <line x1="16" y1="14" x2="8" y2="18" stroke="#00D4AA" stroke-width="2"/>
+                <line x1="16" y1="14" x2="24" y2="18" stroke="#00D4AA" stroke-width="2"/>
+                <line x1="16" y1="22" x2="10" y2="30" stroke="#00D4AA" stroke-width="2"/>
+                <line x1="16" y1="22" x2="22" y2="30" stroke="#00D4AA" stroke-width="2"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Skeletal Tracking</h4>
+              <p>25-point body mapping tracks every joint in real time for precise movement analysis.</p>
+            </div>
+          </div>
+          <div class="ai-feature">
+            <div class="ai-feature-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M4 28 C8 12, 16 8, 28 4" stroke="#00D4AA" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <path d="M4 28 C12 24, 20 12, 28 4" stroke="#00D4AA" stroke-width="2" fill="none" stroke-dasharray="4 3" stroke-linecap="round" opacity="0.5"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Swing Path Mapping</h4>
+              <p>Trace the exact arc of your motion and compare it against pro athlete benchmarks.</p>
+            </div>
+          </div>
+          <div class="ai-feature">
+            <div class="ai-feature-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <circle cx="16" cy="16" r="12" stroke="#00D4AA" stroke-width="2"/>
+                <line x1="16" y1="16" x2="16" y2="8" stroke="#00D4AA" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="16" y1="16" x2="22" y2="20" stroke="#00D4AA" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Tempo Analysis</h4>
+              <p>Measure timing, rhythm, and transition speed across every phase of your movement.</p>
+            </div>
+          </div>
+          <div class="ai-feature">
+            <div class="ai-feature-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect x="4" y="4" width="24" height="24" rx="4" stroke="#00D4AA" stroke-width="2"/>
+                <text x="16" y="21" text-anchor="middle" fill="#00D4AA" font-size="12" font-weight="700">97</text>
+              </svg>
+            </div>
+            <div>
+              <h4>Fli Score</h4>
+              <p>Your personalized performance rating — track improvements session over session.</p>
+            </div>
+          </div>
+          <div class="ai-feature">
+            <div class="ai-feature-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <polyline points="4,24 10,18 16,20 22,10 28,6" stroke="#00D4AA" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="28" cy="6" r="3" fill="#00D4AA"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Progress Tracking</h4>
+              <p>Longitudinal dashboards show your growth trajectory with data-driven insights.</p>
+            </div>
+          </div>
+        </div>
+        <!-- AI Visual Diagram -->
+        <div class="ai-visual fade-in">
+          <div class="ai-diagram">
+            <div class="ai-diagram-body">
+              <!-- Stylized stick figure with tracking points -->
+              <svg viewBox="0 0 200 280" fill="none" class="ai-figure">
+                <!-- Body -->
+                <circle cx="100" cy="30" r="20" stroke="#00D4AA" stroke-width="2" fill="none"/>
+                <line x1="100" y1="50" x2="100" y2="150" stroke="#00D4AA" stroke-width="2"/>
+                <line x1="100" y1="80" x2="55" y2="120" stroke="#00D4AA" stroke-width="2"/>
+                <line x1="100" y1="80" x2="145" y2="110" stroke="#00D4AA" stroke-width="2"/>
+                <line x1="100" y1="150" x2="65" y2="220" stroke="#00D4AA" stroke-width="2"/>
+                <line x1="100" y1="150" x2="135" y2="220" stroke="#00D4AA" stroke-width="2"/>
+                <!-- Tracking points -->
+                <circle cx="100" cy="30" r="5" fill="#00D4AA" class="pulse-point"/>
+                <circle cx="100" cy="80" r="5" fill="#00D4AA" class="pulse-point"/>
+                <circle cx="55" cy="120" r="5" fill="#00D4AA" class="pulse-point"/>
+                <circle cx="145" cy="110" r="5" fill="#00D4AA" class="pulse-point"/>
+                <circle cx="100" cy="150" r="5" fill="#00D4AA" class="pulse-point"/>
+                <circle cx="65" cy="220" r="5" fill="#00D4AA" class="pulse-point"/>
+                <circle cx="135" cy="220" r="5" fill="#00D4AA" class="pulse-point"/>
+                <!-- Swing arc -->
+                <path d="M145 110 Q 170 60, 140 20" stroke="#00D4AA" stroke-width="2" stroke-dasharray="6 4" fill="none" opacity="0.6"/>
+                <!-- Data readouts -->
+                <text x="160" y="30" fill="#00D4AA" font-size="10" opacity="0.8">Fli Score: 94</text>
+                <text x="155" y="140" fill="#00D4AA" font-size="10" opacity="0.8">Tempo: 3:1</text>
+                <text x="10" y="100" fill="#00D4AA" font-size="10" opacity="0.8">Angle: 42°</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT THE FOUNDER ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-content fade-in">
+        <div class="about-photo">
+          <!-- To use the real photo: replace src with the actual image path (e.g., assets/founder.png) -->
+          <img src="https://raw.githubusercontent.com/nathangarnett-ops/test/claude/build-flireel-marketplace-K8JYf/assets/founder.png" alt="Ian Fliflet, Founder & CEO of FliReel" class="founder-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="founder-placeholder" style="display:none;">
+            <svg viewBox="0 0 200 200" width="200" height="200">
+              <!-- Warm wood-tone background -->
+              <defs>
+                <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#b8834a"/>
+                  <stop offset="100%" stop-color="#8b5e3c"/>
+                </linearGradient>
+                <clipPath id="circle-clip">
+                  <circle cx="100" cy="100" r="98"/>
+                </clipPath>
+              </defs>
+              <circle cx="100" cy="100" r="98" fill="url(#bg)"/>
+              <g clip-path="url(#circle-clip)">
+                <!-- Simplified portrait silhouette -->
+                <ellipse cx="100" cy="85" rx="38" ry="45" fill="#d4a574" opacity="0.9"/>
+                <ellipse cx="100" cy="78" rx="34" ry="40" fill="#e8c9a0"/>
+                <!-- Hair -->
+                <ellipse cx="100" cy="55" rx="38" ry="28" fill="#4a3728"/>
+                <ellipse cx="100" cy="48" rx="35" ry="22" fill="#3d2e1e"/>
+                <!-- Face features -->
+                <ellipse cx="88" cy="75" rx="4" ry="3" fill="#6b8f7a" opacity="0.7"/>
+                <ellipse cx="112" cy="75" rx="4" ry="3" fill="#6b8f7a" opacity="0.7"/>
+                <path d="M92 92 Q100 98 108 92" stroke="#c4956a" stroke-width="2" fill="none"/>
+                <!-- Shirt -->
+                <ellipse cx="100" cy="155" rx="55" ry="35" fill="#b0b0b0"/>
+                <ellipse cx="100" cy="150" rx="50" ry="30" fill="#c8c8c8"/>
+              </g>
+              <circle cx="100" cy="100" r="97" fill="none" stroke="#00D4AA" stroke-width="3"/>
+            </svg>
+          </div>
+        </div>
+        <div class="about-text">
+          <h2>About the Founder</h2>
+          <h3>Ian Fliflet</h3>
+          <p class="about-role">Founder & CEO</p>
+          <p class="about-bio">
+            Ian built FliReel on a simple belief — that world-class coaching shouldn't be limited by geography or price.
+            By combining elite instructor knowledge with cutting-edge AI motion analysis, FliReel gives every athlete
+            access to the tools and feedback that were once reserved for the pros.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="logo">
+            <span class="logo-fli">Fli</span><span class="logo-reel">Reel</span>
+          </a>
+          <p>Your Game. Your Coach. Your Edge.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-waitlist">
+          <h4>Join the Waitlist</h4>
+          <p>Stay in the loop — join the FliReel waitlist</p>
+          <form class="waitlist-form" onsubmit="return false;">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-primary btn-sm">Join</button>
+          </form>
+          <div class="footer-social">
+            <!-- Simple CSS social icons -->
+            <a href="#" class="social-icon" aria-label="Twitter/X">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="18" cy="6" r="1.5" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23 9.71a8.5 8.5 0 00-.91-4.13 2.92 2.92 0 00-1.72-1A78.4 78.4 0 0012 4.27a78.5 78.5 0 00-8.34.3 2.87 2.87 0 00-1.46.74c-.9.83-1 2.25-1.1 3.45a48.3 48.3 0 000 6.48 9.6 9.6 0 00.74 3.11 2.73 2.73 0 001.62 1.17 57 57 0 007.58.54h1.92a57 57 0 007.58-.54 2.73 2.73 0 001.62-1.17 9.6 9.6 0 00.74-3.11 48.3 48.3 0 00.1-5.53zm-13.5 5.1V9.19l5.73 2.81z" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 FliReel. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
