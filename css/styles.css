@@ -470,6 +470,17 @@ ul {
   line-height: 1.5;
 }
 
+.sport-stat {
+  display: block;
+  margin-top: 14px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-accent);
+  opacity: 0.8;
+}
+
 /* ========== PRICING ========== */
 .pricing {
   background: var(--color-bg-light);
@@ -613,7 +624,7 @@ ul {
 
 .coach-card {
   flex-shrink: 0;
-  width: 220px;
+  width: 260px;
   background: var(--color-bg-card);
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: var(--radius);
@@ -674,6 +685,24 @@ ul {
   font-size: 0.8rem;
   color: var(--color-gray-400);
   line-height: 1.4;
+}
+
+.coach-bio {
+  font-size: 0.75rem;
+  color: var(--color-gray-400);
+  line-height: 1.5;
+  margin-top: 10px;
+  opacity: 0.85;
+}
+
+.coach-sessions {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-accent);
+  margin-top: 10px;
+  opacity: 0.8;
 }
 
 /* ========== AI TECHNOLOGY ========== */
@@ -810,15 +839,11 @@ ul {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #142240, #0F1F38);
-  border: 3px solid var(--color-accent);
+  overflow: hidden;
   box-shadow: 0 0 40px rgba(0, 212, 170, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
-  font-weight: 800;
-  color: var(--color-accent);
 }
 
 .about-text h2 {
